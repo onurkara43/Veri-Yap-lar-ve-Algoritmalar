@@ -1,0 +1,13 @@
+Verilen dizi [16, 21, 11, 8, 12, 22] için Merge Sort aşamaları şu şekildedir:
+
+[16, 21, 11] [8, 12, 22] şeklinde ikiye bölünür.
+
+[16] [21, 11] [8] [12, 22] şeklinde dört parçaya bölünür.
+
+[16] [11, 21] [8] [12, 22] şeklinde ikişerli parçalar sıralanır.
+
+[11, 16, 21] [8, 12, 22] şeklinde iki sıralı parça birleştirilir.
+
+[8, 11, 12, 16, 21, 22] şeklinde iki birleştirilmiş parça birleştirilir.
+
+Big-O gösterimi Merge Sort için O(n*log n)'dir.
